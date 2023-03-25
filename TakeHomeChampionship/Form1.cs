@@ -39,53 +39,50 @@ namespace TakeHomeChampionship
             teamsByCountry["SPAIN"].Add("Atletico Madrid");
             teamsByCountry.Add("ITALY", new List<string> { "Juventus" });
             playersByTeam.Add("SPAIN" + "Real Madrid", new List<string>());
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(09)" + " Karim Benzema " + "(LW)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(01)" + " Thibaut Courtois " + "(GK)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(02)" + " Dani Carvajal " + "(DF)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(03)" + " Éder Militão " + "(DF)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(04)" + " David Alaba " + "(DF)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(05)" + " Jesús Vallejo " + "(DF)" );
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(06)" + " Nacho " + "(DF)" );
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(08)" + " Toni Kroos " + "(MF)" );
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(10)" + " Luka Modrić " + "(MF)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(11)" + " Marco Asensio " + "(LW)" );
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(12)" + " Eduardo Camavinga " + "(MF)");
-            playersByTeam["SPAIN" + "Real Madrid"].Add("(20)" + " Vinícius Júnior " + "(LW)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(09)" + " " + "Benzema" + " "+ "(LW)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(01)" + " " + "Courtois" + " " + "(GK)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(02)" + " " + "Carvajal" + " " + "(DF)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(03)" + " " + "Militão" + " " + "(DF)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(04)" + " " + "Alaba" + " " + "(DF)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(05)" + " " + "Jesús" + " " + "(DF)" );
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(06)" + " " + "Nacho" + " " + "(DF)" );
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(08)" + " " + "Kroos" + " " + "(MF)" );
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(10)" + " " + "Modrić" + " " + "(MF)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(11)" + " " + "Asensio" + " " + "(LW)" );
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(12)" + " " + "Camavinga" + " " + "(MF)");
+            playersByTeam["SPAIN" + "Real Madrid"].Add("(20)" + " " + "Vinícius" + " " + "(LW)");
             playersByTeam.Add("SPAIN" + "Atletico Madrid", new List<string>());
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(01)" + " Ivo Grbić " + "(GK)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(02)" + " José Giménez " + "(DF)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(03)" + " Sergio Reguilón " + "(DF)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(04)" + " Geoffrey Kondogbia " + "(MF)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(05)" + " Rodrigo De Paul " + "(MF)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(06)" + " Koke " + "(MF)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(08)" + " Antoine Griezmann " + "(LW)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(09)" + " Memphis Depay " + "(LW)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(10)" + " Ángel Correa " + "(LW)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(13)" + " Jan Oblak " + "(GK)");
-            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(17)" + " Saúl " + "(MF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(01)" + " " + "Ivo" + " " + "(GK)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(02)" + " " + "José" + " " + "(DF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(03)" + " " + "Reguilón" + " " + "(DF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(04)" + " " + "Kondogbia" + " " + "(MF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(05)" + " " + "Paul" + " " + "(MF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(06)" + " " + "Koke" + " " + "(MF)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(08)" + " " + "Griezmann" + " " + "(LW)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(09)" + " " + "Depay" + " " + "(LW)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(10)" + " " + "Ángel" + " " + "(LW)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(13)" + " " + "JanOblak" + " " + "(GK)");
+            playersByTeam["SPAIN" + "Atletico Madrid"].Add("(17)" + " " + "Saúl" + " " + "(MF)");
             playersByTeam.Add("ITALY" + "Juventus", new List<string>());
-            playersByTeam["ITALY" + "Juventus"].Add("(01)" + " Wojciech Szczęsny " + "(GK)");
-            playersByTeam["ITALY" + "Juventus"].Add("(02)" + " Mattia De Sciglio " + "(DF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(03)" + " Bremer " + "(DF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(05)" + " Manuel Locatelli " + "(MF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(06)" + " Danilo " + "(DF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(07)" + " Federico Chiesa " + "(LW)");
-            playersByTeam["ITALY" + "Juventus"].Add("(09)" + " Dušan Vlahović " + "(LF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(10)" + " Paul Pogba " + "(LF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(22)" + " Ángel Di María " + "(RW)");
-            playersByTeam["ITALY" + "Juventus"].Add("(19)" + " Leonardo Bonucci " + "(DF)");
-            playersByTeam["ITALY" + "Juventus"].Add("(25)" + " Adrien Rabiot " + "(MF)");
-
+            playersByTeam["ITALY" + "Juventus"].Add("(01)" + " " + "Szczęsny" + " " + "(GK)");
+            playersByTeam["ITALY" + "Juventus"].Add("(02)" + " " + "Sciglio" + " " + "(DF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(03)" + " " + "Bremer" + " " + "(DF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(05)" + " " + "Locatelli" + " " + "(MF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(06)" + " " + "Danilo" + " " + "(DF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(07)" + " " + "Chiesa" + " " + "(LW)");
+            playersByTeam["ITALY" + "Juventus"].Add("(09)" + " " + "Vlahović" + " " + "(LF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(10)" + " " + "Pogba" + " " + "(LF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(22)" + " " + "DiMaría" + " " + "(RW)");
+            playersByTeam["ITALY" + "Juventus"].Add("(19)" + " " + "Bonucci" + " " + "(DF)");
+            playersByTeam["ITALY" + "Juventus"].Add("(25)" + " " + "Rabiot" + " " + "(MF)");
         }
 
         class Team
         {
             private string teamName;
             public string TeamName { get { return teamName; } set { teamName = value; } }
-            
             private string teamCountry;
             public string TeamCountry { get { return teamCountry; } set { teamCountry = value; } }
-
             private string teamCity;
             public string TeamCity { get { return teamCity; } set { teamCity = value; } }
             public List<Player> Players = new List<Player>();
@@ -96,19 +93,15 @@ namespace TakeHomeChampionship
         {
             private string playerName;
             public string PlayerName { get { return playerName; } set { playerName = value; } }
-
             private string playerPos;
             public string PlayerPos { get { return playerPos; } set { playerPos = value; } }
-
             private string playerNum;
             public string PlayerNum { get { return playerNum; } set { playerNum = value; } }   
-
         }
 
         Dictionary<string, List<string>> teamsByCountry = new Dictionary<string, List<string>>();
         // Buat dictionary untuk menyimpan tim dan pemain
         Dictionary<string, List<string>> playersByTeam = new Dictionary<string, List<string>>();
-
         private void buttonAddTeam_Click(object sender, EventArgs e)
         {
             listBox_Player.Items.Clear();
@@ -142,14 +135,11 @@ namespace TakeHomeChampionship
 
                         // tambahkan negara ke combo box choose Country
                         comboBoxChooseCountry.Items.Add(tim.TeamCountry);
-
                     }
                     // Jika tim tidak ada, buat daftar pemain baru untuk tim tersebut
                     playersByTeam.Add(tim.TeamCountry + tim.TeamName, new List<string>());
                     comboBoxChooseTeam.Items.Add(tim.TeamName);
-                   
                 }
-                
             }
             else
             {
@@ -166,17 +156,22 @@ namespace TakeHomeChampionship
         {
             if(!string.IsNullOrEmpty(textBox_PlayerName.Text) && !string.IsNullOrEmpty(textBox_PlayerNumber.Text))
             {
-                string playerName = textBox_PlayerName.Text;
-                bool playerExists = false;
-                foreach (string item in listBox_Player.Items)
+                List<string> playerNames = new List<string>();
+                foreach (object item in listBox_Player.Items)
                 {
-                    if (item.Contains(playerName))
-                    {
-                        playerExists = true;
-                        break;
-                    }
+                    string playerName = item.ToString().Split(' ')[1];
+                    playerNames.Add(playerName);
                 }
-                if (playerExists == false)
+
+                if (playerNames.Contains(textBox_PlayerName.Text)) 
+                {
+                    MessageBox.Show("Player name already exists.");
+                    textBox_PlayerName.Text = "";
+                    textBox_PlayerNumber.Text = "";
+                    comboBox_PlayerPosition.Text = "";
+                    return;
+                }
+                else
                 {
                     Player players = new Player();
                     Team tim = new Team();
@@ -187,15 +182,11 @@ namespace TakeHomeChampionship
                     string country = comboBoxChooseCountry.SelectedItem?.ToString();
 
                     // tambah pemain ke dalam list pemain
-                    playersByTeam[country + teamName].Add( "("+players.PlayerNum+")"+ "  "+ players.PlayerName + "  " + "(" + players.PlayerPos + ")");
+                    playersByTeam[country + teamName].Add("(" + players.PlayerNum + ")" + " " + players.PlayerName + " " + "(" + players.PlayerPos + ")");
 
                     // clear
                     textBox_PlayerName.Clear();
                     comboBoxChooseTeam_SelectedIndexChanged(null, null);
-                }
-                else
-                {
-                    MessageBox.Show("Silahkan Ganti Nama Pemain Lain");
                 }
             }
             else
@@ -247,34 +238,22 @@ namespace TakeHomeChampionship
         private void comboBoxChooseTeam_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Clear the players ListBox
-           
-
             string selectedTeam = comboBoxChooseTeam.SelectedItem.ToString();
             string country = comboBoxChooseCountry.SelectedItem?.ToString();
             if(selectedTeam != null)
             {
-                //listBox_Player.Items.Clear();
                 listBox_Player.DataSource = null;
-
+                listBox_Player.Items.Clear();
+                listBox_Player.DataSource = playersByTeam[country + selectedTeam];
             }
             else
             {
                 listBox_Player.DataSource = null;
             }
-
-            // mendapatkan pemain untuk tim yang dipilih dari dictionary
-            List<string> players = playersByTeam.ContainsKey(comboBoxChooseCountry.SelectedItem.ToString() + selectedTeam) ? playersByTeam[comboBoxChooseCountry.SelectedItem.ToString() + selectedTeam] : new List<string>();
-
-            // menambahkan players to the ListBox player
-            foreach (string player in players)
-            {
-                listBox_Player.Items.Add(player);
-            }
         }
 
         private void buttonRemovePlayer_Click(object sender, EventArgs e)
         {
-           
             string teamName = comboBoxChooseTeam.SelectedItem?.ToString();
             string country = comboBoxChooseCountry.SelectedItem?.ToString();
 
@@ -301,8 +280,9 @@ namespace TakeHomeChampionship
                             playersByTeam[country + teamName].Remove(selectedPlayer);
 
                             // Update listbox
+                            listBox_Player.DataSource = null;
+                            listBox_Player.Items.Clear();
                             listBox_Player.DataSource = playersByTeam[country + teamName];
-
                         }
                     }
                 }
