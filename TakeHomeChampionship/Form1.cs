@@ -104,8 +104,10 @@ namespace TakeHomeChampionship
         Dictionary<string, List<string>> playersByTeam = new Dictionary<string, List<string>>();
         private void buttonAddTeam_Click(object sender, EventArgs e)
         {
+            listBox_Player.DataSource = null;
             listBox_Player.Items.Clear();
-            if(!string.IsNullOrEmpty(txtBoxTeamName.Text) && !string.IsNullOrEmpty(textBoxTeamCity.Text) && !string.IsNullOrEmpty(textBoxTeamCountry.Text))
+           // listBox_Player.DataSource = playersByTeam[comboBoxChooseCountry.SelectedItem.ToString() + comboBoxChooseTeam.SelectedItem.ToString()];
+            if (!string.IsNullOrEmpty(txtBoxTeamName.Text) && !string.IsNullOrEmpty(textBoxTeamCity.Text) && !string.IsNullOrEmpty(textBoxTeamCountry.Text))
             {
                 Team tim = new Team();
                 tim.TeamName = txtBoxTeamName.Text;
